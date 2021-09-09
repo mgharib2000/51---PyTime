@@ -18,7 +18,7 @@ app.rowconfigure(0, weight=1)
 app.rowconfigure(1, weight=1)
 app.rowconfigure(2, weight=1)
 
-clock_label = Label(app, bg="black", fg="white", font = ("Times", 24, "bold"), relief=GROOVE)
+clock_label = Label(app, bg="black", fg="white", font = ("Times", 40, "bold"), relief=GROOVE)
 clock_label.grid(row=1, column=1)
 
 def update_label():
