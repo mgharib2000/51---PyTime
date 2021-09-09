@@ -4,7 +4,7 @@ from tkinter import *
 from time import strftime
 
 app = Tk()
-app.title("PyClock")
+app.title("PyTime")
 app.iconbitmap("clock.ico")
 app.geometry("240x80")
 app.configure(bg="PURPLE")
